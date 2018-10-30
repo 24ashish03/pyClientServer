@@ -18,7 +18,7 @@ for i in range(5) :
 	
 	if 'exit' in msg or 'close' in msg :
 		print ("Closing Server ...")
-		time.sleep(2)
+		time.sleep(3)
 		exit()
 	recvdata = s.recvfrom(50000)
 	recdata = recvdata[0]
